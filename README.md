@@ -1,4 +1,8 @@
-# Import Data Bundle #
+Import Data Bundle
+==================
+
+This bundle requires PuMuKIT version 3 or higher. To import data on lower versions use [PumukitExampleDataBundle](https://github.com/pumukit/PumukitExampleDataBundle)
+
 
 ```bash
 composer require teltek/pumukit-import-data-bundle
