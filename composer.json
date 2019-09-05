@@ -1,0 +1,29 @@
+{
+    "name": "teltek/pumukit-import-data-bundle",
+    "type": "symfony-bundle",
+    "description": "PuMuKIT import data",
+    "keywords": [
+        "demo",
+        "import",
+        "symfony",
+        "bundle",
+        "pumukit"
+    ],
+    "homepage": "https://github.com/pumukit/PumukitImportDataBundle",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Teltek Team",
+            "homepage": "http://teltek.es"
+        }
+    ],
+    "require": {
+        "php": "7.2",
+        "pumukit/pumukit": "3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pumukit\\ImportDataBundle\\": ""
+        }
+    }
+}

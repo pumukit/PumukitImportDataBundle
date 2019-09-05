@@ -1,0 +1,40 @@
+[
+    {
+        "_id": "5d1c8a991b7a0031f012207e",
+        "status": 0,
+        "type": 3,
+        "record_date": "2019-07-28T12:00:54Z",
+        "public_date": "2019-09-01T12:59:37.535Z",
+        "title": {
+            "en": "Personal Recorder: Introduction",
+            "es": "Personal Recorder: Introducción"
+        },
+        "subtitle": {
+            "es": "Una forma fácil de maximizar tu potencial",
+            "en": "An easy way to maximize your potential"
+        },
+        "description": {
+            "es": "En este vídeo se presenta el módulo 'Personal Recorder' para PuMuKIT. Permite realizar grabaciones dualstream de forma fácil e intuitiva.",
+            "en": "In this video the 'Personal Recorder' bundle for Pumukit is presented. It allows you to make dualstream recordings easily and intuitively."
+        },
+        "numview": 714,
+        "copyright": "@1999-2019",
+        "license": "All rights reserved",
+        "keywords": {
+            "es": [
+                "Personal Recorder"
+            ],
+            "en": [
+                "Personal Recorder"
+            ]
+        },
+        "tags": [
+            "PUCHWEBTV",
+            "PUDENEW"
+        ],
+        "pics": [
+            "https://replay.teltek.es/uploads/pic/series/5bfbe0d68726db3b008b4609/video/5d6e3f9ccc4646395d8b459d/5d6e607b64664.jpeg"
+        ],
+        "externalplayer": "https://replay.teltek.es/iframe/5d108cdbcc46467d048b4656"
+    }
+]

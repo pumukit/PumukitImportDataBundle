@@ -1,0 +1,374 @@
+[
+    {
+        "_id": "5d1c8a991b7a0031f012207e",
+        "status": 0,
+        "type": 3,
+        "record_date": "2018-10-21T12:00:44Z",
+        "public_date": "2019-07-03T10:59:37.535Z",
+        "title": {
+            "en": "PuMuKIT: Overview of Series section",
+            "es": "PuMuKIT: Visión general de la sección Series"
+        },
+        "subtitle": {
+            "es": "",
+            "en": ""
+        },
+        "description": {
+            "es": "Descripción de las diferentes opciones que se pueden aplicar a cada serie,  por ejemplo definir el estado de publicación de los objetos multimedia, listarlos o modificar el perfil de difusión.",
+            "en": "Description of the different options that can be applied to each serie, for example define the multimedia object status, list them or modify broadcasts."
+        },
+        "numview": 815,
+        "copyright": "@1999-2019",
+        "license": "All rights reserved",
+        "keywords": {
+            "es": [
+                "PuMuKIT",
+                "Series"
+            ],
+            "en": [
+                "PuMuKIT",
+                "Series"
+            ]
+        },
+        "tags": [
+            "PUCHWEBTV",
+            "PUDENEW"
+        ],
+        "pics": [
+            "https://replay.teltek.es/uploads/pic/series/5bfbe0d68726db3b008b4609/video/5d6e3f9ccc4646395d8b459d/5d6e6081cb840.jpeg"
+        ],
+        "externalplayer": "https://replay.teltek.es/iframe/5d108168cc464672048b4692"
+    },
+    {
+        "_id": "5d1c8a991b7a0031f012207e",
+        "status": 0,
+        "type": 3,
+        "record_date": "2018-10-21T14:00:44Z",
+        "public_date": "2019-07-03T10:59:37.535Z",
+        "title": {
+            "en": "PuMuKIT: Detailed overview of Series tabs",
+            "es": "PuMuKIT: Visión detallada de las pestañas de una serie"
+        },
+        "subtitle": {
+            "es": "",
+            "en": ""
+        },
+        "description": {
+            "es": "Cada serie tiene sus propios metadatos y en este vídeo se explican cada uno de ellos. Además se presenta la funcionalidad de la pestaña 'Plantilla de Metadatos del Vídeo' en la que se definen diferentes campos que serán heredados por los vídeos creados en cada serie. ",
+            "en": "Each series has its own metadata and in this vieo explains each one of them. In addition, it presents the functionality of the 'Video Metadata Template' tab in which it defines different fields that will be inherited by the videos created in each series. "
+        },
+        "numview": 741,
+        "copyright": "@1999-2019",
+        "license": "All rights reserved",
+        "keywords": {
+            "es": [
+                "PuMuKIT",
+                "Metadata"
+            ],
+            "en": [
+                "PuMuKIT",
+                "Metadata"
+            ]
+        },
+        "tags": [
+            "PUCHWEBTV",
+            "PUDENEW"
+        ],
+        "pics": [
+            "https://replay.teltek.es/uploads/pic/series/5bfbe0d68726db3b008b4609/video/5d6e3f9ccc4646395d8b459d/5d6e6081cb840.jpeg"
+        ],
+        "externalplayer": "https://replay.teltek.es/iframe/5d1083d7cc46464b018b4677"
+    },
+    {
+        "_id": "5d1c8a991b7a0031f012207e",
+        "status": 0,
+        "type": 3,
+        "record_date": "2018-10-21T16:00:44Z",
+        "public_date": "2019-07-03T10:59:37.535Z",
+        "title": {
+            "en": "PuMuKIT: How to use wizard to upload a video",
+            "es": "PuMuKIT: Cómo usar el asistente para subir un vídeo"
+        },
+        "subtitle": {
+            "es": "",
+            "en": ""
+        },
+        "description": {
+            "es": "Explicación de todos los pasos a seguir para cargar un video a través del asistente.",
+            "en": "Explanation of all the steps to follow to upload a video through the wizard."
+        },
+        "numview": 899,
+        "copyright": "@1999-2019",
+        "license": "All rights reserved",
+        "keywords": {
+            "es": [
+                "PuMuKIT",
+                "Asistente"
+            ],
+            "en": [
+                "PuMuKIT",
+                "Wizard"
+            ]
+        },
+        "tags": [
+            "PUCHWEBTV",
+            "PUDENEW"
+        ],
+        "pics": [
+            "https://replay.teltek.es/uploads/pic/series/5bfbe0d68726db3b008b4609/video/5d6e3f9ccc4646395d8b459d/5d6e6081cb840.jpeg"
+        ],
+        "externalplayer": "https://replay.teltek.es/iframe/5d1084eecc464671048b4674"
+    },
+    {
+        "_id": "5d1c8a991b7a0031f012207e",
+        "status": 0,
+        "type": 3,
+        "record_date": "2018-10-24T18:00:44Z",
+        "public_date": "2019-07-03T10:59:37.535Z",
+        "title": {
+            "en": "PuMuKIT: An overview of Multimedia Objects section",
+            "es": "PuMuKIT: Visión general de la sección Objectos Multimedia"
+        },
+        "subtitle": {
+            "es": "",
+            "en": ""
+        },
+        "description": {
+            "es": "Este video explica cómo subir un objeto multimedia, completar sus metadatos e indicar quién su usuario/grupo propietario.",
+            "en": "This video explains how to upload a multimedia object, complete its metadata and indicate who is the user/group owner."
+        },
+        "numview": 689,
+        "copyright": "@1999-2019",
+        "license": "All rights reserved",
+        "keywords": {
+            "es": [
+                "PuMuKIT",
+                "Objecto Multimedia",
+                "Subir"
+            ],
+            "en": [
+                "PuMuKIT",
+                "Multimedia Object",
+                "Upload"
+            ]
+        },
+        "tags": [
+            "PUCHWEBTV",
+            "PUDENEW"
+        ],
+        "pics": [
+            "https://replay.teltek.es/uploads/pic/series/5bfbe0d68726db3b008b4609/video/5d6e3f9ccc4646395d8b459d/5d6e6081cb840.jpeg"
+        ],
+        "externalplayer": "https://replay.teltek.es/iframe/5d1085b5cc4646d3498b45a5"
+    },
+    {
+        "_id": "5d1c8a991b7a0031f012207e",
+        "status": 0,
+        "type": 3,
+        "record_date": "2018-10-24T10:00:44Z",
+        "public_date": "2019-07-03T10:59:37.535Z",
+        "title": {
+            "en": "PuMuKIT: Detailed overview of Multimedia Tab: How to generate images and uploads attachments",
+            "es": "PuMuKIT: Visión detallada de la pestaña Multimedia: Cómo generar imágenes y subir archivos adjuntos"
+        },
+        "subtitle": {
+            "es": "",
+            "en": ""
+        },
+        "description": {
+            "es": "Los objetos multimedia tienen una imagen que los identifica y la posibilidad de cargar archivos adjuntos. Con este video, se explica cómo hacerlo.",
+            "en": "Multimedia Objects have an image that identifies them and the possibility to upload attachements. With this video, it explains how to do it."
+        },
+        "numview": 1254,
+        "copyright": "@1999-2019",
+        "license": "All rights reserved",
+        "keywords": {
+            "es": [
+                "PuMuKIT",
+                "Archivos adjuntos",
+                "Miniaturas"
+            ],
+            "en": [
+                "PuMuKIT",
+                "Attachements",
+                "Thumbnails"
+            ]
+        },
+        "tags": [
+            "PUCHWEBTV",
+            "PUDENEW"
+        ],
+        "pics": [
+            "https://replay.teltek.es/uploads/pic/series/5bfbe0d68726db3b008b4609/video/5d6e3f9ccc4646395d8b459d/5d6e6081cb840.jpeg"
+        ],
+        "externalplayer": "https://replay.teltek.es/iframe/5d108653cc464633098b463e"
+    },
+    {
+        "_id": "5d1c8a991b7a0031f012207e",
+        "status": 0,
+        "type": 3,
+        "record_date": "2018-10-26T15:00:34Z",
+        "public_date": "2019-07-03T10:59:37.535Z",
+        "title": {
+            "en": "PuMuKIT: Visión general del catalogador Unesco",
+            "es": "PuMuKIT: An overview of Unesco Catalogue section"
+        },
+        "subtitle": {
+            "es": "",
+            "en": ""
+        },
+        "description": {
+            "es": "Mediante el catalogador UNESCO se pueden buscar objectos multimedia indicando una gran variedad de campos, desde su id hasta el título de la serie a la que pertenece. Es un buscador muy completo y muy fácil de usar. Mira el vídeo!",
+            "en": "Through the UNESCO catalogue, you can search for multimedia objects indicating a wide variety of search options, from their ID to the title of the series to which they belongs. It is a very complete search engine and very easy to use. Look at the video!"
+        },
+        "numview": 235,
+        "copyright": "@1999-2019",
+        "license": "All rights reserved",
+        "keywords": {
+            "es": [
+                "PuMuKIT",
+                "Catalogador UNESCO",
+                "Buscar"
+            ],
+            "en": [
+                "PuMuKIT",
+                "Unesco catalogue",
+                "Search"
+            ]
+        },
+        "tags": [
+            "PUCHWEBTV",
+            "PUDENEW"
+        ],
+        "pics": [
+            "https://replay.teltek.es/uploads/pic/series/5bfbe0d68726db3b008b4609/video/5d6e3f9ccc4646395d8b459d/5d6e6081cb840.jpeg"
+        ],
+        "externalplayer": "https://replay.teltek.es/iframe/5d1086f1cc464670048b4679"
+    },
+    {
+        "_id": "5d1c8a991b7a0031f012207e",
+        "status": 0,
+        "type": 3,
+        "record_date": "2018-10-26T16:10:44Z",
+        "public_date": "2019-07-03T10:59:37.535Z",
+        "title": {
+            "en": "PuMuKIT: How to create a live channel",
+            "es": "PuMuKIT: Cómo crear un canal de directo"
+        },
+        "subtitle": {
+            "es": "",
+            "en": ""
+        },
+        "description": {
+            "es": "Si quieres saber cómo crear un canal, sólo tienes que ver este vídeo. En él, se explican todos los pasos para hacerlo.",
+            "en": "If you want to know how to create a live channel, just watch this video.  In it, all steps to do it are explained."
+        },
+        "numview": 1052,
+        "copyright": "@1999-2019",
+        "license": "All rights reserved",
+        "keywords": {
+            "es": [
+                "PuMuKIT",
+                "Canal en vivo"
+            ],
+            "en": [
+                "PuMuKIT",
+                "Live Channel"
+            ]
+        },
+        "tags": [
+            "PUCHWEBTV",
+            "PUDENEW"
+        ],
+        "pics": [
+            "https://replay.teltek.es/uploads/pic/series/5bfbe0d68726db3b008b4609/video/5d6e3f9ccc4646395d8b459d/5d6e6081cb840.jpeg"
+        ],
+        "externalplayer": "https://replay.teltek.es/iframe/5d1089e5cc464676048b467b"
+    },
+    {
+        "_id": "5d1c8a991b7a0031f012207e",
+        "status": 0,
+        "type": 3,
+        "record_date": "2018-10-28T18:50:44Z",
+        "public_date": "2019-07-03T10:59:37.535Z",
+        "title": {
+            "en": "PuMuKIT: How to create a live event",
+            "es": "PuMuKIT: Cómo crear un evento en directo"
+        },
+        "subtitle": {
+            "es": "",
+            "en": ""
+        },
+        "description": {
+            "es": "Si quieres saber cómo crear un evento en directo, sólo tienes que ver este vídeo. En él, se explican todos los pasos para hacerlo.",
+            "en": "If you want to know how to create a live event, just watch this video. In it, all steps to do it are explained."
+        },
+        "numview": 755,
+        "copyright": "@1999-2019",
+        "license": "All rights reserved",
+        "keywords": {
+            "es": [
+                "PuMuKIT",
+                "Evento en directo",
+                "Directo"
+            ],
+            "en": [
+                "PuMuKIT",
+                "Live channel",
+                "Live"
+            ]
+        },
+        "tags": [
+            "PUCHWEBTV",
+            "PUDENEW"
+        ],
+        "pics": [
+            "https://replay.teltek.es/uploads/pic/series/5bfbe0d68726db3b008b4609/video/5d6e3f9ccc4646395d8b459d/5d6e6081cb840.jpeg"
+        ],
+        "externalplayer": "https://replay.teltek.es/iframe/5d108aaacc4646714d8b4590"
+    },
+    {
+        "_id": "5d1c8a991b7a0031f012207e",
+        "status": 0,
+        "type": 3,
+        "record_date": "2018-10-28T18:55:44Z",
+        "public_date": "2019-07-03T10:59:37.535Z",
+        "title": {
+            "en": "PuMuKIT: How to configure the layout of a Live Event",
+            "es": "PuMuKIT: Cómo configurar el diseño de un evento en directo"
+        },
+        "subtitle": {
+            "es": "",
+            "en": ""
+        },
+        "description": {
+            "es": "Cuando creas un evento en directo, tienes que completar sus metadatos que serán mostrados en la plataforma. Este vídeo te explica como hacerlo.",
+            "en": "When you create a live event, you have to complete its metadata which will be displayed in the frontend. This video explains you how do it."
+        },
+        "numview": 632,
+        "copyright": "@1999-2019",
+        "license": "All rights reserved",
+        "keywords": {
+            "es": [
+                "PuMuKIT",
+                "Evento en directo",
+                "Evento",
+                "Directo"
+            ],
+            "en": [
+                "PuMuKIT",
+                "Live event",
+                "Event",
+                "Live"
+            ]
+        },
+        "tags": [
+            "PUCHWEBTV",
+            "PUDENEW"
+        ],
+        "pics": [
+            "https://replay.teltek.es/uploads/pic/series/5bfbe0d68726db3b008b4609/video/5d6e3f9ccc4646395d8b459d/5d6e6081cb840.jpeg"
+        ],
+        "externalplayer": "https://replay.teltek.es/iframe/5d108b7ecc46467c048b465e"
+    }
+]
