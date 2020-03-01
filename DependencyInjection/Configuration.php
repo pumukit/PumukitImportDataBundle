@@ -9,9 +9,6 @@ class Configuration implements ConfigurationInterface
 {
     public function getConfigTreeBuilder(): TreeBuilder
     {
-        $treeBuilder = new TreeBuilder('pumukit_import_data');
-        $treeBuilder->getRootNode();
-
-        return $treeBuilder;
+        return new TreeBuilder('pumukit_import_data');
     }
 }
