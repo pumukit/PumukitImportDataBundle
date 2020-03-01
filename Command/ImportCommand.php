@@ -2,13 +2,17 @@
 
 namespace Pumukit\ImportDataBundle\Command;
 
-use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
+use Doctrine\ODM\MongoDB\DocumentManager;
+use Pumukit\CoreBundle\Services\ImportMappingDataService;
+use Pumukit\SchemaBundle\Services\FactoryService;
+use Pumukit\SchemaBundle\Services\SeriesPicService;
+use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Filesystem\Exception\FileNotFoundException;
 
-class ImportCommand extends ContainerAwareCommand
+class ImportCommand extends Command
 {
     private $seriesPic = 'https://replay.teltek.es/uploads/pic/5ce7f712cc464671048b45b0/logo_picture.png';
     private $documentManager;
@@ -16,6 +20,16 @@ class ImportCommand extends ContainerAwareCommand
     private $importMappingDataService;
     private $factoryService;
     private $seriesPicService;
+
+    public function __construct(DocumentManager $documentManager, FactoryService $factoryService, SeriesPicService $seriesPicService, ImportMappingDataService $importMappingDataService)
+    {
+        $this->documentManager = $documentManager;
+        $this->factoryService = $factoryService;
+        $this->seriesPicService = $seriesPicService;
+        $this->importMappingDataService = $importMappingDataService;
+
+        parent::__construct();
+    }
 
     protected function configure(): void
     {
@@ -25,34 +39,23 @@ class ImportCommand extends ContainerAwareCommand
             ->addOption('file', 'S', InputOption::VALUE_REQUIRED, 'Path of JSON file')
             ->setHelp(
                 <<<'EOT'
-            
+
             Examples:
             php app/console pumukit:data:import --file="{path}/{file}.json"
-            
+
 EOT
             )
         ;
     }
 
-    /**
-     * @throws \Exception
-     */
     protected function initialize(InputInterface $input, OutputInterface $output): void
     {
-        $this->documentManager = $this->getContainer()->get('doctrine.odm.mongodb.document_manager');
         $this->file = $input->getOption('file');
         if (!$this->file) {
             throw new \Exception('File option must be defined');
         }
-        $this->importMappingDataService = $this->getContainer()->get('pumukitcore.import_mapping_data');
-        $this->factoryService = $this->getContainer()->get('pumukitschema.factory');
-        $this->seriesPicService = $this->getContainer()->get('pumukitschema.seriespic');
     }
 
-    /**
-     * @throws \ErrorException
-     * @throws \Exception
-     */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         if (!$this->importMappingDataService->validatePath($this->file)) {
