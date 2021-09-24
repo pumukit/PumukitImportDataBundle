@@ -19,6 +19,6 @@ class PumukitImportDataExtension extends Extension
             new FileLocator(__DIR__.'/../Resources/config')
         );
 
-        $loader->load('services.yaml');
+        $loader->load('pumukit_import_data.yaml');
     }
 }
