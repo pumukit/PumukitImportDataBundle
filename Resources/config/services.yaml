@@ -1,0 +1,9 @@
+services:
+  _defaults:
+    autowire:      true
+    autoconfigure: true
+    public:        true
+
+  Pumukit\ImportDataBundle\Command\:
+    resource: '../../Command'
+    tags: ['console.command']
