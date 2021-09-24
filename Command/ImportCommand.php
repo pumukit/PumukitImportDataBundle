@@ -86,5 +86,7 @@ EOT
         }
 
         $this->documentManager->flush();
+        
+        return 0;
     }
 }
