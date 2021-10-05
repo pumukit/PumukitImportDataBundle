@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Pumukit\ImportDataBundle\Command;
 
 use Doctrine\ODM\MongoDB\DocumentManager;
@@ -21,8 +23,12 @@ class ImportCommand extends Command
     private $factoryService;
     private $seriesPicService;
 
-    public function __construct(DocumentManager $documentManager, FactoryService $factoryService, SeriesPicService $seriesPicService, ImportMappingDataService $importMappingDataService)
-    {
+    public function __construct(
+        DocumentManager $documentManager,
+        FactoryService $factoryService,
+        SeriesPicService $seriesPicService,
+        ImportMappingDataService $importMappingDataService
+    ) {
         $this->documentManager = $documentManager;
         $this->factoryService = $factoryService;
         $this->seriesPicService = $seriesPicService;
@@ -56,7 +62,7 @@ EOT
         }
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         if (!$this->importMappingDataService->validatePath($this->file)) {
             throw new FileNotFoundException('File not found');
@@ -86,5 +92,7 @@ EOT
         }
 
         $this->documentManager->flush();
+
+        return 0;
     }
 }
