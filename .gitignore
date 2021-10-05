@@ -1,0 +1,5 @@
+*~
+*.swp
+\#*\#
+TAGS
+.php_cs.cache
